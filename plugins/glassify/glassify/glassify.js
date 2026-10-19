@@ -1,7 +1,7 @@
 (() => {
 'use strict';
 // Same raw-source version check as AudioMetrix; never executes remote code.
-const pluginVersion = '1.3.1';
+const pluginVersion = '1.4.1';
 const pluginName = 'Glassify';
 const pluginHomepageUrl = 'https://github.com/MCelliotG/Glassify';
 const pluginUpdateUrl = 'https://raw.githubusercontent.com/MCelliotG/Glassify/main/plugins/glassify/glassify.js';
