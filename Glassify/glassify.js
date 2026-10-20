@@ -4,7 +4,7 @@
 const pluginVersion = '1.3.2';
 const pluginName = 'Glassify';
 const pluginHomepageUrl = 'https://github.com/MCelliotG/Glassify-for-FMDX-Webservers';
-const pluginUpdateUrl = 'https://raw.githubusercontent.com/MCelliotG/Glassify/main/Glassify/glassify.js';
+const pluginUpdateUrl = 'https://raw.githubusercontent.com/MCelliotG/Glassify-for-FMDX-Webservers/refs/heads/main/Glassify/glassify.js';
 // Glassify has backend, model and assets: updates must replace the complete package.
 const pluginSetupOnlyNotify = true;
 const CHECK_FOR_UPDATES = true;
