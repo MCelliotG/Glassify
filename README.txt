@@ -1,3 +1,3 @@
-Glassify 1.2.0 — Theme accent glow, twin rotating overglow, Theme aware overlay.
-See README.md for installation and controls.
-
+Glassify 1.4.1
+Copy Glassify.js and the Glassify folder into the server plugins directory.
+See README.md for upgrade instructions.

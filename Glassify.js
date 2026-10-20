@@ -1,5 +1,5 @@
 'use strict';
-const pluginConfig={name:'Glassify',version:'1.3.2',author:'MCelliotG',frontEndPath:'Glassify/glassify.js'};
+const pluginConfig={name:'Glassify',version:'1.4.1',author:'MCelliotG',frontEndPath:'Glassify/glassify.js'};
 module.exports={pluginConfig};
 // Metadata is collected while endpoints.js is still loading. Defer registration
 // until that synchronous require chain has completed, and only if enabled.
