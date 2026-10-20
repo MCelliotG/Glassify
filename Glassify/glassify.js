@@ -196,7 +196,7 @@ const TEMPLATES={"panels": "\n/* Paint-only styles: leave core widths, margins, 
 header{align-items:flex-start;background:transparent;gap:12px;position:relative;top:auto;padding:4px 0 10px}
 .brand{flex:1;min-width:0;text-align:left}.brand-logo{width:100%;max-width:215px;height:auto;margin:0;pointer-events:none}
 .header-actions{flex:0 1 150px;display:flex;flex-direction:column;align-items:flex-end;gap:8px;text-align:right;min-width:95px}
-.version-label{font-size:10px;line-height:1.4;opacity:.85}
+.version-label{font-size:10px;line-height:1.4;font-weight:700;opacity:.95}
 #close{width:32px;height:32px;display:grid;place-items:center;padding:0;border:1px solid var(--color-4,#8ad);border-radius:7px;background:var(--color-4,#8ad);color:var(--color-1,#20252c);font-size:24px;line-height:1;transition:background-color .12s ease,box-shadow .12s ease}
 #close:hover{background:var(--color-5,#cef);box-shadow:0 0 10px var(--color-4,#8ad)}
 .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
@@ -217,7 +217,8 @@ header{row-gap:2px}
 .brand{align-self:start}
 .version-label{grid-column:1/-1}
 .update-slot{grid-column:1/-1;grid-row:3;min-height:16px;line-height:16px;font-size:11px}
-#update-available{color:var(--color-4,#8ad);text-decoration:none;cursor:pointer}
+#update-available{color:var(--color-4,#8ad);font-weight:700;text-decoration:none;cursor:pointer;border:1px solid currentColor;border-radius:6px;padding:3px 8px;background:color-mix(in srgb,var(--color-4,#8ad) 10%,transparent)}
+#update-available:not([hidden]){display:inline-block}
 #update-available:hover{text-decoration:underline;opacity:.85}
 #close{position:relative;font-size:0}
 #close::before,#close::after{content:"";position:absolute;left:50%;top:50%;width:14px;height:2px;border-radius:1px;background:currentColor;transform:translate(-50%,-50%) rotate(45deg)}
